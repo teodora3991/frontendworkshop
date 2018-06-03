@@ -1,0 +1,19 @@
+body {
+    background: black;
+}
+.naslov {
+    font-size: 12px;
+}
+.naslov1 {
+    color: blue;
+}
+.naslov2 {
+    color: yellow;
+}
+/* 
+# za id
+. za class 
+izbegava se stilizovanje elemenata, uglavnom se stilizuje preko klasa
+kad hoćeš bez stilizovanja elemenata sa , možeš da dodaš stil za više klasa
+jedan element može da ima više klasa  
+*/

@@ -1,0 +1,65 @@
+
+.glavni {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.kvadrat {
+    height: 400px;
+    width: 400px;
+    border: 1px solid red;
+    font-size: 18px;
+    word-break: break-word;    
+    margin: 10px;
+    padding: 16px 8px 16px 8px;
+    position: relative;
+    display: inline-block;
+}
+#wrapper {
+    float: left;
+    width: 31%; /* of wrapper width */
+    margin: 0 1%;
+}
+.naslov {
+    color: rgb(2, 39, 39);
+    position: absolute;
+    top: 15px;
+    width: calc(100% - 16px);
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+  }
+.naslov:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 1s linear;
+}
+.kvadrat-slika {
+    max-width: 400px;
+    height: auto;
+}
+.datum {
+    position: absolute;
+    bottom:4px;
+    left:4px;
+    margin: 0;
+}
+.text {
+    overflow-y: scroll;
+    height: 20%;
+}
+a: {
+    text-decoration: none;
+    color: black;
+}
+/* # za id
+. za class 
+izbegava se stilizovanje elemenata, uglavnom se stilizuje preko klasa
+kad hoćeš bez stilizovanja elemenata sa , možeš da dodaš stil za više klasa
+jedan element može da ima više klasa 
+<div> za pravljenje elemenata kontejnera, 'kvadrata'
+overflow-y/x: scroll/auto kada je tekst prevelik za kvadrat
+display za to gde će da budu kontejneri
+display inline block je za slaganje teksta a ne za slaganje kontejnera
+display flex za kontejnere
+*/
